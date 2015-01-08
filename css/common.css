@@ -1,0 +1,18 @@
+article {
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+    margin-left: 0em;
+    margin-right:0em;
+    line-height: 1.9em;
+}
+
+p {
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+    font-size: 16px;
+}
+
+#qrcode {
+    margin-top: 1.9em;
+    margin-bottom: 2.7em;
+}

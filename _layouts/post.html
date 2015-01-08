@@ -1,0 +1,25 @@
+---
+layout: common
+---
+
+<div class="col-md-10 pagination-centered">
+  <article>
+    <small>{{ page.date | date: "%Y-%m-%d" }}</small>
+    <small> <a href="{{site.members[page.author]}}">{{page.author}} </a></small>
+    <a href="#"><h1 style="text-align:center">{{page.title}}</h1></a>
+    <hr/>
+    {{content}}
+    <hr/>
+
+    {% if page.previous.url %} 
+    <a class="col-md-5" href="{{page.previous.url}}">{{page.previous.title}}</a> 
+    {% endif %}
+
+    <a href="/">回首页</a>
+
+    {% if page.next.url %} 
+    <a style="float:right" href="{{page.next.url}}">{{page.next.title}}</a> 
+    {% endif %} 
+  </article>
+  <div id="qrcode" align="center"> </div>
+</div>

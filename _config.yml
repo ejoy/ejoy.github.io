@@ -1,0 +1,15 @@
+destination: ./_site
+lsi:         false
+port:        4000
+highligher:  true
+markdown:    kramdown
+permalink:   date
+rdiscount:
+  input: GFM
+
+title: 简悦技术Blog
+
+members:
+  cloud:   http://www.codingnow.com/
+  arnan:   http://arnan.link/
+  hqwrong: http://hqwrong.github.io/
