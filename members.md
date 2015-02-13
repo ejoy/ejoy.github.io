@@ -7,3 +7,4 @@ layout: common
 - [树懒]({{ site.members.hqwrong }})
 - [KK]({{ site.members.spin6lock }})
 - [子熏]({{ site.members.zixun }})
+- [雷雨]({{ site.memebers.rainfiel }})
